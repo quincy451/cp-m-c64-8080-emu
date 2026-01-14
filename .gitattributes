@@ -1,2 +1,10 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Treat disk images as binary (never normalize line endings)
+*.d64 binary
+*.d71 binary
+*.d81 binary
+*.g64 binary
+*.p00 binary
+*.prg binary
+*.tap binary
+*.crt binary
+*.zip binary

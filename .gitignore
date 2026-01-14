@@ -1,0 +1,17 @@
+# Disk images (keep private by default)
+images/original/*.d64
+images/work/*.d64
+images/original/*.zip
+images/work/*.zip
+
+# Output
+out/
+*.log
+*.png
+*.tmp
+*.bak
+
+# Python
+__pycache__/
+*.pyc
+.venv/
